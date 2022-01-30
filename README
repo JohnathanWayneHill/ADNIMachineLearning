@@ -1,0 +1,37 @@
+AUTHOR: Johnathan Hill
+
+DESCRIPTION:
+This is the project directory for a machine learning project using fractional anisotropy mean and neuropsychological data (on depression and executive functioning) from the Alzheimer's Disease Neuroimaging Initiative.  
+
+INSTRUCTIONS:
+1) In R, set working directory with path to ADNIMachineLearning.
+
+DIRECTORY MAP:
+
+ADNIMachineLearning 
+|
+~cse160_final_project: project directory for CSE160 final project
+|
+~data
+|~~ADNI_CBBRESULTS.csv: exec data
+|~~DTIROI_04_30_14-1.csv: DTI data
+|~~DTIROI_DICT_04_30_14-2.csv: DTI data dictionary
+|~~GDSCALE.csv: Geriatic Depression Scale data
+|~~merged.csv: DTI and GDS data merged
+|
+~documents
+|
+~R
+|~~gdfa_backstep.R: performs backstep regression for lm(GD~FA_means)
+|~~gdfa_clean.R: reorganizes data frame of merged data in R environment
+|~~gdfa_gam.R: performs generalized additive model algorithm on GD/FA data
+|
+~results
+|~~step_model.txt: significant parameters in backstep regression
+|~~step_model_steps.txt: steps of backstep regression
+|~~step_model_summary.txt: summary of model
+|
+TODO: 
+
+1) place old data/results/scripts into project directory
+2) create data cleaning/checking system for executive functioning data
