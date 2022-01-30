@@ -1,5 +1,9 @@
 AUTHOR: Johnathan Hill
 
+NOTE: 
+This project is older (from the Python 2 days). This project started out in R, and transitioned into a Python project--integrating R and Python with rpy2. The 
+data for this project is not mine so, I cannot disclose the data used. See more in PDF--a poster presented at the Mary Gates Research Symposium.
+
 DESCRIPTION:
 This is the project directory for a machine learning project using fractional anisotropy mean and neuropsychological data (on depression and executive functioning) from the Alzheimer's Disease Neuroimaging Initiative.  
 
